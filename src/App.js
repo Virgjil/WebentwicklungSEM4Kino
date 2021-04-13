@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import First from "./components/First";
+import React, { Component } from "react";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <h1>jiz</h1> 
+        <First/>
         <a
           className="App-link"
           href="https://reactjs.org"
